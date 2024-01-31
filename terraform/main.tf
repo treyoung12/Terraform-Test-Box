@@ -13,6 +13,7 @@ provider "aws" {
 }
 
 provider "aws"{
+  alias = "west"
   region = var.region-west
 }
 
