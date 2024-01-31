@@ -4,8 +4,8 @@ variable "region" {
   type = string
 }
 
-variable "region-west"{
-  default = "us-west-1"
-  description = "AWS Region for west"
-  type = string
-}
+# variable "region-west"{
+#   default = "us-west-1"
+#   description = "AWS Region for west"
+#   type = string
+# }
