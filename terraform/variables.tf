@@ -4,8 +4,14 @@ variable "region" {
   type = string
 }
 
-variable "region-west"{
+variable "AWS_ACCESS_KEY_ID" {
   default = ""
-  description = "AWS Region for west"
+  description = "Access Key ID sensitive value, hidden safely"
+  type = string
+}
+
+variable "AWS_SECRET_ACCESS_KEY" {
+  default = ""
+  description = "Secret Access Key sensitive value, hidden safely"
   type = string
 }
